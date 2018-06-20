@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>One Million Lines</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -22,7 +22,7 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top black-nav" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,10 +33,10 @@
           </button>
           <a class="navbar-brand" href="#"><img src="img/logo.png" alt="One million lines" title="One Million Lines"></a>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">WHO WE ARE</a></li>
-            <li><a href="#about">GET INVOLVED</a></li>
+        <div>
+          <ul class="nav navbar-right">
+            <li><a href="#who-we">WHO WE ARE</a></li>
+            <li><a href="#get-involved">GET INVOLVED</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -53,50 +53,63 @@
       </div>
     </div>
 
-    <div class="container homepage">
-      <!-- Example row of columns -->
-      <h2>Get Involved</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3>Students</h3>
-          <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
-          <p><a class="btn btn-primary" href="#" role="button">Start learning &raquo;</a></p>
+    <div id="who-we">
+      <div class="container homepage">
+        <img src="img/who-we.png" alt="Who we are" title="Massive Academy">
+        <h2>Who we Are</h2>
+        <hr>
+        <p>We are <a href="http://www.massiveacademy.us" target="_blank">MASSIVE Academy.</a> We aim to improve education through both method - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
+      </div>
+    </div>
+
+    <div id="get-involved">
+      <div class="container homepage">
+        <!-- Example row of columns -->
+        <h2>Get Involved</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+            </span>
+            <h3>Students</h3>
+            <p>Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.</p>
+            <p><a id="button" class="btn btn-default" href="#" role="button">Start learning &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-pencil fa-stack-1x fa-inverse"></i>
+            </span>
+            <h3>Educators</h3>
+            <p>Want to bring this initiative to your school or institution? Awesome! Click the button below and we'll make it happen.</p>
+            <p><a id="button" class="btn btn-default" href="#" role="button">Join the Initiative &raquo;</a></p>
+         </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-money fa-stack-1x fa-inverse"></i>
+            </span>
+            <h3>Sponsors</h3>
+            <p>We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved.</p>
+            <p><a id="button" class="btn btn-default" href="#" role="button">Give Support &raquo;</a></p>
+          </div>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fas fa-pencil fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3>Educators</h3>
-          <p>Want to bring this initiative to your school or institution? Awesome! Click the button below and we'll make it happen.</p>
-          <p><a class="btn btn-primary" href="#" role="button">Join the Initiative &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fas fa-money fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3>Sponsors</h3>
-          <p>We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get involved.</p>
-          <p><a class="btn btn-primary" href="#" role="button">Give Support &raquo;</a></p>
-        </div>
+        </div> <!-- /container -->
       </div>
 
-      <hr>
-
       <footer>
-        <p>&copy; 2016 Company, Inc.</p>
+        <div class="container">
+          <p><img src="img/footer.png"></p>
+        </div>
       </footer>
-    </div> <!-- /container -->
+
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
