@@ -161,3 +161,11 @@ button.close{
 #back-to-top a{
   color: #333;
 }
+
+.modal-dialog {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -173px;
+}
